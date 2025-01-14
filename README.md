@@ -37,11 +37,11 @@ Set throttle stick at low max --1000 microsecond
 
    High power High speed Digital Servo
 
-   BLUEARROW AF D43S-6.0-MG Micro Metal Gear Digital Servo is best
+   -----BLUEARROW AF D43S-6.0-MG Micro Metal Gear Digital Servo is best
 
    Arduino Pro mini board
 
-   Lipo1cell over discharge rate 20C
+   Lipo1cell (high discharge rate 20C)
 
 ## Wiring
 
@@ -56,8 +56,8 @@ A voltage of 6V is supplied to the RX.
 ![210811-2 New ServoFlap system  Wiring](/image/210811-2%20New%20ServoFlap%20system%20%20Wiring.jpg)
 
 
-
 Ground -GND pin
+
 6V -RAW pin ( 6-6.2V from Step down DC converter or Step up DC converter for 6V servo)
 
 
@@ -68,6 +68,7 @@ Wire 5V power supply from Pro Mini Board VCC to 5V ppm RX
 
 ![224023 New ServoFlap system for 5VRX  Wiring](/image/224023%20New%20ServoFlap%20system%20for%205VRX%20%20Wiring.jpg)
 ## My setting
+
 Lipo: 70-150mAh1cell Lipo battery
 
 Servo: BLUEARROW AF D43S-6.0-MG Micro Metal Gear Digital Servo
