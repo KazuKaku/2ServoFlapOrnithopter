@@ -7,6 +7,8 @@ Unlike model airplanes which use propellers to fly, this allows for a more natur
 However, because it uses the weak power of the Servo to flap its wings, it needs to be as lightweight as possible, which demands advanced building techniques.
  This is the code for an Ornithopter which uses two Servos.
 
+ ![250110Ornithopters](/image/250110Ornithopters.jpg)
+
 ![2210830 ServoFlap system of 2 serevo](/image/210830%20ServoFlap%20system%20of%202%20serevo.jpg)
 
 ## New Servo Flap System by K.Kakuta
