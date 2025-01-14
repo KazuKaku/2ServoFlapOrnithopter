@@ -1,13 +1,13 @@
 # Arduino CODE for 2ServoFlapOrnithopter
 
-![230711 Pterasaur3small](/images/230711%20Pterasaur3small%20.jpg)
+![230711 Pterasaur3small](/image/230711%20Pterasaur3small%20.jpg)
 
 The Servo Flap Ornithopter(SFO) flies by flapping its wings, which are programmed through an Arduino board and operated using Servo.
 Unlike model airplanes which use propellers to fly, this allows for a more natural flight.
 However, because it uses the weak power of the Servo to flap its wings, it needs to be as lightweight as possible, which demands advanced building techniques.
  This is the code for an Ornithopter which uses two Servos.
 
-![2210830 ServoFlap system of 2 serevo](/images/210830%20ServoFlap%20system%20of%202%20serevo.jpg)
+![2210830 ServoFlap system of 2 serevo](/image/210830%20ServoFlap%20system%20of%202%20serevo.jpg)
 
 ## New Servo Flap System by K.Kakuta
 
@@ -48,7 +48,7 @@ right Servo --D5 pin
 left Servo--D6 pin
 A voltage of 6V is supplied to the RX.
 
-![210811-2 New ServoFlap system  Wiring](/images/210811-2%20New%20ServoFlap%20system%20%20Wiring.jpg)
+![210811-2 New ServoFlap system  Wiring](/image/210811-2%20New%20ServoFlap%20system%20%20Wiring.jpg)
 
 
 
@@ -61,8 +61,7 @@ Ground -GND pin
 ## Wiring 5V for ppm RX
 Wire 5V power supply from Pro Mini Board VCC to 5V ppm RX
 
-![224023 New ServoFlap system for 5VRX  Wiring](/images/224023%20New%20ServoFlap%20system%20for%205VRX%20%20Wiring.jpg)
-
+![224023 New ServoFlap system for 5VRX  Wiring](/image/224023%20New%20ServoFlap%20system%20for%205VRX%20%20Wiring.jpg)
 ## My setting
 Lipo: 70-150mAh1cell Lipo battery
 
