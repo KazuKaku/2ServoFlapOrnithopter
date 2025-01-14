@@ -46,8 +46,11 @@ Set throttle stick at low max --1000 microsecond
 ## Wiring
 
 PPM Receiver-- RX PPM signal input to D2 pin
+
 right Servo --D5 pin
+
 left Servo--D6 pin
+
 A voltage of 6V is supplied to the RX.
 
 ![210811-2 New ServoFlap system  Wiring](/image/210811-2%20New%20ServoFlap%20system%20%20Wiring.jpg)
