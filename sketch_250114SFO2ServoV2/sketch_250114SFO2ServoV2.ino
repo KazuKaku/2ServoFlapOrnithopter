@@ -1,4 +1,4 @@
-//231010 Version2 SFO for 2 servo CODE by K.Kakuta
+//250114 Version2 SFO for 2 servo CODE by K.Kakuta
 #include <Servo.h>
 #include "src/PPMReader/PPMReader.h"// <PPMReader.h>
 //#include <InterruptHandler.h>// 2022/01/27 Delete for more good move
