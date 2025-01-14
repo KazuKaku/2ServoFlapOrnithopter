@@ -1,6 +1,6 @@
 # Arduino CODE for 2ServoFlapOrnithopter
 
-![230711 Pterasaur3small](/image/230711%20Pterasaur3small%20.jpg)
+![230711-2 Pterasaur3small](/image/230711-2%20Pterasaur3small%20.jpg)
 
 The Servo Flap Ornithopter(SFO) flies by flapping its wings, which are programmed through an Arduino board and operated using Servo.
 Unlike model airplanes which use propellers to fly, this allows for a more natural flight.
