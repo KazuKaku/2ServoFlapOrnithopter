@@ -39,7 +39,9 @@ Set throttle stick at low max --1000 microsecond
 
    -----BLUEARROW AF D43S-6.0-MG Micro Metal Gear Digital Servo is best
 
-   Arduino Pro mini board
+   Arduino Pro mini board  
+   
+   ---(Seeeduino XIAO SAMD21 can also be used if the power supply to the receiver is set to 5V)
 
    Lipo1cell (high discharge rate 20C)
 
