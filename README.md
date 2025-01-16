@@ -24,7 +24,7 @@ However, because it uses the weak power of the Servo to flap its wings, it needs
 4 Change flapping amplitude on each Servo (Ch4 rudder stick)
 Increase flap amplitude of one servo and decrease flap amplitude of another servo
 
-Setting : 
+## Setting : 
 
 Set elevator and rudder and aileron stick Center-- 1500microsesond
 
