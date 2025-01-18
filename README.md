@@ -38,6 +38,10 @@ Set throttle stick at low max --1000 microsecond
    High power High speed Digital Servo
 
    -----BLUEARROW AF D43S-6.0-MG Micro Metal Gear Digital Servo is best
+       
+       When using a servo with a high supply voltage (such as HVServo), 
+       
+                                          please use wiring appropriate for that servo.
 
    Arduino Pro mini board  
    
