@@ -9,7 +9,7 @@ However, because it uses the weak power of the Servo to flap its wings, it needs
 
  ![250110Ornithopters](/image/250110Ornithopters.jpg)
 
-## Flight controls for an Ornithopter with a horizontal stabilizer
+## Flight controls for an Ornithopter with a horizontal Tail
 
 ![2210830 ServoFlap system of 2 serevo](/image/210830%20ServoFlap%20system%20of%202%20serevo.jpg)
 
@@ -113,7 +113,7 @@ All List
 
 
 
-## Flight controls for an Ornithopter without a horizontal stabilizer (such as a butterfly type)
+## Flight controls for an Ornithopter without a horizontal Tail (such as a butterfly type)
 
 The operation of the Aileron is the opposite of that for an Ornithopter with a horizontal stabilizer.
 
