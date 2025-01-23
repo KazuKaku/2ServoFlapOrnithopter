@@ -115,7 +115,7 @@ All List
 
 ## Flight controls for an Ornithopter without a horizontal Tail (such as a butterfly type)
 
-The operation of the Aileron is the opposite of that for an Ornithopter with a horizontal stabilizer.
+The operation of the Aileron is the opposite of that for an Ornithopter with a horizontal Tail.
 
 ![230706 ServoFlap system of 2 serevo for Butterfly &DragonFly](/image/230706%20ServoFlap%20system%20of%202%20serevo%20for%20Butterfly%20&DragonFly.jpg)
 
