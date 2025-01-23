@@ -9,6 +9,8 @@ However, because it uses the weak power of the Servo to flap its wings, it needs
 
  ![250110Ornithopters](/image/250110Ornithopters.jpg)
 
+## Flight controls for an Ornithopter with a horizontal stabilizer
+
 ![2210830 ServoFlap system of 2 serevo](/image/210830%20ServoFlap%20system%20of%202%20serevo.jpg)
 
 ## New Servo Flap System by K.Kakuta
@@ -108,3 +110,12 @@ All List
 ## Request site for production of Kazu Ornithpter
 (http://kakutaclinic.life.coocan.jp/KOrniSSt.html)
  
+
+
+
+## Flight controls for an Ornithopter without a horizontal stabilizer (such as a butterfly type)
+
+The operation of the Aileron is the opposite of that for an Ornithopter with a horizontal stabilizer.
+
+![230706 ServoFlap system of 2 serevo for Butterfly &DragonFly](/image/230706%20ServoFlap%20system%20of%202%20serevo%20for%20Butterfly%20&DragonFly.jpg)
+
