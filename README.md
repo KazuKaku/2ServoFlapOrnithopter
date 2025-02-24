@@ -51,6 +51,8 @@ Set throttle stick at low max --1000 microsecond
 
    Lipo1cell (high discharge rate 20C)
 
+   Small StepUpDCconverter (3.7V to 6V)
+
 ## Wiring
 
 PPM Receiver-- RX PPM signal input to D2 pin
