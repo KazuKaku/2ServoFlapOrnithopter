@@ -1,4 +1,4 @@
-//250224 Version2 SFO for 2 servo CODE by K.Kakuta
+//250318 Version2 SFO for 2 servo CODE by K.Kakuta
 #include <Servo.h>
 #include "src/PPMReader/PPMReader.h"// <PPMReader.h>
 //#include <InterruptHandler.h>// 2022/01/27 Delete for more good move
@@ -75,7 +75,7 @@ Serial.print(",\t");
  rudder=(int)(ch1value-1500);//Ch1  Flap angle incline-- AileronStick
  elevator=(int)(ch2value-1500);//Ch2 Flap Angle bilateral UP&Down
  flapamp=(int)(ch4value-1500);//Ch4 Right and left Flap angle difference from3to2
- delaytime=(int)((ch5value-950)/5);//Ch5 Flapping frequency 
+ delaytime=(ch5value-950)/5;//Ch5 Flapping frequency 
 // you can change UP or Down direction by your transmitter Reverse setting of each Channel
 
     //Serial.print("rudder");Serial.print(rudder);
