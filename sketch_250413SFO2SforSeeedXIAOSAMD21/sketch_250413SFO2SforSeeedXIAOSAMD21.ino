@@ -1,4 +1,4 @@
-//241005SFO2ServoV2forSeeedXIAOR2024 by K.Kakuta
+//250413 SFO2servo for SeeedXIAO CODE by K.Kakuta
 #include <Servo.h>
 #include "src/PPMReader/PPMReader.h"// <PPMReader.h>
 //#include <InterruptHandler.h>// 2022/01/27 Delete for more good move
