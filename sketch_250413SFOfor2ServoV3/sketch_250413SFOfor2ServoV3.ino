@@ -1,4 +1,4 @@
-//250318 Version2 SFO for 2 servo CODE by K.Kakuta
+//250413 Version2 SFO for 2 servo CODE by K.Kakuta
 #include <Servo.h>
 #include "src/PPMReader/PPMReader.h"// <PPMReader.h>
 //#include <InterruptHandler.h>// 2022/01/27 Delete for more good move
@@ -31,8 +31,8 @@ static int servo_comm1 = 0;// Left or Right Servo high point and low point
 static int servo_comm2 = 0; // Left or Right Servo high point and low point
 volatile int rudder = 0;
 float glide_deg = 0; // Gliding angle 0=0 degree 500=90degree
-//static float servo_zero1 = 0;//flap angle adjust
-//static float servo_zero2 = 0; //flap angle adjust
+static float servo_zero1 = 0;//flap angle adjust
+static float servo_zero2 = 0; //flap angle adjust
 
 Servo servo_left, servo_right; // create servo object to control a servo
 
@@ -61,21 +61,21 @@ prev_time = current_time;
 ch5value = ppm.rawChannelValue(5);//Ch5
 
 
-    Serial.print("ch3value ");Serial.print(ch3value);
-    Serial.print(",\t"); 
-    Serial.print("ch1value ");Serial.print(ch1value);
-    Serial.print(",\t");
-    Serial.print("ch2value ");Serial.print(ch2value);
-Serial.print(",\t");
-    Serial.print("ch4value ");Serial.print(ch4value);
-Serial.print(",\t");
-    Serial.print("ch5value ");Serial.print(ch5value);
-    Serial.println(",\t");
+    //Serial.print("ch3value ");Serial.print(ch3value);
+    //Serial.print(",\t"); 
+    //Serial.print("ch1value ");Serial.print(ch1value);
+    //Serial.print(",\t");
+   // Serial.print("ch2value ");Serial.print(ch2value);
+//Serial.print(",\t");
+    //Serial.print("ch4value ");Serial.print(ch4value);
+//Serial.print(",\t");
+    //Serial.print("ch5value ");Serial.print(ch5value);
+    //Serial.println(",\t");
 
  rudder=(int)(ch1value-1500);//Ch1  Flap angle incline-- AileronStick
  elevator=(int)(ch2value-1500);//Ch2 Flap Angle bilateral UP&Down
  flapamp=(int)(ch4value-1500);//Ch4 Right and left Flap angle difference from3to2
- delaytime=(ch5value-950)/5;//Ch5 Flapping frequency 
+ delaytime=(int)((ch5value-950)/5);//Ch5 Flapping frequency 
 // you can change UP or Down direction by your transmitter Reverse setting of each Channel
 
     //Serial.print("rudder");Serial.print(rudder);
@@ -90,8 +90,8 @@ Serial.print(",\t");
  if (ch3value > 1080) {
 if (elapsed_time < delaytime/1000) {
 
-  servo_comm1 = (int)( (ch3value -1000)/2+1500 + rudder - elevator + flapamp);
-  servo_comm2 = (int)(1000 + (2000 - ((ch3value -1000)/2+1500)) + rudder + elevator + flapamp);  
+  servo_comm1 = (int)( (ch3value -1000)/2+1500 + rudder - elevator+ servo_zero1+ flapamp);
+  servo_comm2 = (int)(1000 + (2000 - ((ch3value -1000)/2+1500)) + rudder + elevator- servo_zero2+flapamp);  
    
   servo_left.writeMicroseconds(servo_comm1); // servo position in variable 'pos'
   servo_right.writeMicroseconds(servo_comm2); // servo position in variable 'pos'
@@ -100,8 +100,8 @@ if (elapsed_time < delaytime/1000) {
 
 if ((elapsed_time > delaytime/1000) && ( elapsed_time < (delaytime + delaytime)/1000)) {
 
-servo_comm1 = (int)( (ch3value -1000)/2+1500 + rudder + elevator - flapamp);
-  servo_comm2 = (int)(1000 + (2000 - ((ch3value -1000)/2+1500)) + rudder - elevator - flapamp);  
+servo_comm1 = (int)( (ch3value -1000)/2+1500 + rudder + elevator+ servo_zero1-flapamp);
+  servo_comm2 = (int)(1000 + (2000 - ((ch3value -1000)/2+1500)) + rudder - elevator- servo_zero2-flapamp);  
 
   servo_left.writeMicroseconds(servo_comm2); // servo position in variable 'pos'
   servo_right.writeMicroseconds(servo_comm1); // servo position in variable 'pos'
