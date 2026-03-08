@@ -49,7 +49,7 @@ Set throttle stick at low max --1000 microsecond
    
    ---(Seeeduino XIAO SAMD21 can also be used if the power supply to the receiver is set to 5V)
    
-　　---(Seeeduino XIAO RP2040 can slso be used CODE for RP2040--Pin name change "2" to "D2", "5" to "D5", "6" to "D6")
+　　---(Seeeduino XIAO RP2040 can also be used CODE for RP2040--Pin name change "2" to "D2", "5" to "D5", "6" to "D6")
   
    Lipo1cell (high discharge rate 20C)
 
