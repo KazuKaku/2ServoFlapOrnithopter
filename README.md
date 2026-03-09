@@ -47,9 +47,9 @@ Set throttle stick at low max --1000 microsecond
 
    Arduino Pro mini board  
    
-  ---(Seeed Studio XIAO RP2040 and RP2040 Tiny can also be used CODE for RP2040--Pin name change "2" to "D2", "5" to "D5", "6" to "D6")
+  ---(Seeed Studio XIAO RP2040 and Waveshare RP2040 Tiny can also be used CODE for RP2040--Pin name change "2" to "D2", "5" to "D5", "6" to "D6")
 
-  ---(Seeed Studio XIAO SAMD21 and Seeed Studio XIAO RP2040, RP2040 Tiny wark by 6V input)
+  ---(Seeed Studio XIAO SAMD21 and Seeed Studio XIAO RP2040, Waveshare RP2040 Tiny work by 6V input)
   
    Lipo1cell (high discharge rate 20C)
 
