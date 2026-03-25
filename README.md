@@ -69,7 +69,7 @@ right Servo --D5 pin
 
 left Servo--D6 pin
 
-A voltage of 5VPin on Arduino pro mini supplied to the RX. or 6V-8.4V to RX direct.
+A 5V on VCC 5Vpin on Arduino pro mini supplied to the RX. or 6V-8.4V to RX direct.
 
 ![210811-2 New ServoFlap system  Wiring](/image/210811-2%20New%20ServoFlap%20system%20%20Wiring.jpg)
 
