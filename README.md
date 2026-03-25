@@ -47,7 +47,7 @@ Set throttle stick at low max --1000 microsecond
 
    -----Servo Bluearrow AF D43S-6.0-MG Digital Servo (6V input) can be substituted with PTK7350 (6V input or 7.4V input).
 
-   -----Servo Bluearrow D0576HT-HV (7.4V input) can be substituted with PYK7465 (2S Lipo Direct input or 8.4V input).
+   -----Servo Bluearrow D0576HT-HV (7.4V input) can be substituted with PTK7465 (2S Lipo Direct input or 8.4V input).
 
    Arduino Pro mini board  
    
@@ -56,10 +56,10 @@ Set throttle stick at low max --1000 microsecond
   ---(Seeed Studio XIAO SAMD21 and Seeed Studio XIAO RP2040, Waveshare RP2040 Tiny work by 6V input)
   
   Lipo
-  
-   Lipo1cell (high discharge rate 20C) and Small StepUp DC converter (3.7V to 6V 3A or 4A)
    
-   Or Lipo2cell(direct input) or Lipo2cell and Small Stepdown DC converter (2SLipo to 7.4V or 8.4V)
+   Lipo1cell (high discharge rate 20C) and Small StepUp DC converter (3.7V to 6V 3A or 4A) for Bluearrow AF D43S-6.0-MG Digital Servo or PTK7350
+   
+   Or Lipo2cell(direct input) or Lipo2cell and Small Stepdown DC converter (2SLipo to 7.4V or 8.4V) for Bluearrow D0576HT-HV(7.4V input) or PTK7465(direct or 7.4V-8.4V)
 
 ## Wiring
 
