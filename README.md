@@ -57,9 +57,9 @@ Set throttle stick at low max --1000 microsecond
   
   Lipo
    
-   Lipo1cell (high discharge rate 20C) and Small StepUp DC converter (3.7V to 6V 1A or 4A) for Bluearrow AF D43S-6.0-MG Digital Servo or PTK7350
+   ----Lipo1cell (high discharge rate 20C) and Small StepUp DC converter (3.7V to 6V 1A or 4A) for Bluearrow AF D43S-6.0-MG Digital Servo or PTK7350
    
-   Or Lipo2cell(direct input) or Lipo2cell and Small Stepdown DC converter (2SLipo to 7.4V or 8.4V) for Bluearrow D0576HT-HV(7.4V input) or PTK7465(direct or 7.4V-8.4V input)
+   ----Or Lipo2cell(direct input) or Lipo2cell and Small Stepdown DC converter (2SLipo to 7.4V or 8.4V) for Bluearrow D0576HT-HV(7.4V input) or PTK7465(direct or 7.4V-8.4V input)
 
 ## Wiring
 
@@ -69,14 +69,14 @@ right Servo --D5 pin
 
 left Servo--D6 pin
 
-A voltage of 6V is supplied to the RX.
+A voltage of 5VPin on Arduino pro mini supplied to the RX. or 6V-8.4V to RX direct.
 
 ![210811-2 New ServoFlap system  Wiring](/image/210811-2%20New%20ServoFlap%20system%20%20Wiring.jpg)
 
 
 Ground -GND pin
 
-6V -RAW pin ( 6-6.2V from Step down DC converter or Step up DC converter for 6V servo)
+6V -RAW pin ( 6-6.2V from Stepup DC converter or 7.4V-8.4V from StepDown DC converter or 2S direct)
 
 
 
