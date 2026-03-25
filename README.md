@@ -57,9 +57,9 @@ Set throttle stick at low max --1000 microsecond
   
   Lipo
   
-   Lipo1cell (high discharge rate 20C) and Small StepUp DC converter (3.7V to 6V) 3A or 4A
+   Lipo1cell (high discharge rate 20C) and Small StepUp DC converter (3.7V to 6V 3A or 4A)
    
-   Or Lipo2cell(8.4V or 2SLipo direct input) or Small Stepdown DC converter (2SLipo to 7.4V or 8.4V)
+   Or Lipo2cell(direct input) or Lipo2cell and Small Stepdown DC converter (2SLipo to 7.4V or 8.4V)
 
 ## Wiring
 
