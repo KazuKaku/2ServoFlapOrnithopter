@@ -47,7 +47,7 @@ Set throttle stick at low max --1000 microsecond
 
    -----Servo Bluearrow AF D43S-6.0-MG Digital Servo (6V input) can be substituted with PTK7350 (6V input or 7.4V input).
 
-        Servo Bluearrow D0576HT-HV (7.4V input) can be substituted with PYK7465 (2S Lipo Direct input or 8.4V input).
+   -----Servo Bluearrow D0576HT-HV (7.4V input) can be substituted with PYK7465 (2S Lipo Direct input or 8.4V input).
 
    Arduino Pro mini board  
    
