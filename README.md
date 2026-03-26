@@ -115,10 +115,10 @@ All List
 (https://www.youtube.com/@BZH07614)
 
 ## My Website of ornithopter
- (http://kakutaclinic.life.coocan.jp/HabatakE.htm)
+ (https://kakutaclinic.life.coocan.jp/HabatakE.htm)
 
 ## Request site for production of Kazu Ornithpter
-(http://kakutaclinic.life.coocan.jp/KOrniSSt.html)
+(https://kakutaclinic.life.coocan.jp/KOrniSSt.html)
  
 
 
