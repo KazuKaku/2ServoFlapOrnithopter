@@ -141,8 +141,13 @@ The operation of the Aileron is the opposite of that for an Ornithopter with a h
  Plese use -- 260406SFO2SV3ESP32S3/sketch_260406SFOfor2ServoV3forESP32S3
  
  Wiring  RX ppmSignal to D2( GPIO  3)
+ 
   Rt Servo to D4 (GPIO  5)
+  
  Lt Servo to D5 (GPIO  6)
+ 
  6V to 5V pin
+ 
  Ground to GND
+ 
  6V from DC converter to RX 
