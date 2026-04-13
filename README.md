@@ -128,3 +128,18 @@ All List
 The operation of the Aileron is the opposite of that for an Ornithopter with a horizontal Tail.
 
 ![230706 ServoFlap system of 2 serevo for Butterfly &DragonFly](/image/230706%20ServoFlap%20system%20of%202%20serevo%20for%20Butterfly%20&DragonFly.jpg)
+
+## Wiring of ESP32S3 - 2 Servo Flap Ornithopter system
+![260409 ESP32S3SFOfor2SFOV3Wiring](/image/260409%20ESP32S3SFOfor2SFOV3Wiring.jpg)
+
+ The Seeed Studio ESP32S3 operates at Max 240MHz, resulting in fast processing speed. (Arduino Pro Mini 16MHz, RP2040 133MHz)
+ With Seeed Studio's ESP32S3, the existing PPMReader cannot read ppm signals, so a new library called SimplePPM was created and used.
+ Since sketches for the ESP32S3 must be written using GPIO numbers rather than pin numbers, the input and output pin numbers for the ppm signal (m) were changed.
+ Seeed Studio's ESP32S3 can operate on a 6V power supply.
+ 
+ Wiring  RX ppmSignal to D2( GPIO  3)
+  Rt Servo to D4 (GPIO  5)
+ Lt Servo to D5 (GPIO  6)
+ 6V to 5V pin
+ Ground to GND
+ 6V from DC converter to RX 
