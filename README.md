@@ -137,6 +137,8 @@ The operation of the Aileron is the opposite of that for an Ornithopter with a h
  Since sketches for the ESP32S3 must be written using GPIO numbers rather than pin numbers, the input and output pin numbers for the ppm signal (m) were changed.
  Seeed Studio's ESP32S3 can operate on a 6V power supply.
  
+ Plese use -- 260406SFO2SV3ESP32S3/sketch_260406SFOfor2ServoV3forESP32S3
+ 
  Wiring  RX ppmSignal to D2( GPIO  3)
   Rt Servo to D4 (GPIO  5)
  Lt Servo to D5 (GPIO  6)
