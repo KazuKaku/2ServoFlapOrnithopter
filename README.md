@@ -109,7 +109,6 @@ Making of ServoFlapOrnithopterAmericanKestrel112
 All List
 (https://www.youtube.com/playlist?list=PLErvdRrwWuPooowmNbeGPEB-HlgC26jC-)
 
-
 ## My YouTube channel 
  Various ServoFlapOrnithopters have been uploaded.
 (https://www.youtube.com/@BZH07614)
@@ -119,9 +118,6 @@ All List
 
 ## Request site for production of Kazu Ornithpter
 (https://kakutaclinic.life.coocan.jp/KOrniSSt.html)
- 
-
-
 
 ## Flight controls for an Ornithopter without a horizontal Tail (such as a butterfly type)
 
@@ -130,24 +126,17 @@ The operation of the Aileron is the opposite of that for an Ornithopter with a h
 ![230706 ServoFlap system of 2 serevo for Butterfly &DragonFly](/image/230706%20ServoFlap%20system%20of%202%20serevo%20for%20Butterfly%20&DragonFly.jpg)
 
 ## Wiring of ESP32S3 - 2 Servo Flap Ornithopter system
-
+![260409 ESP32S3SFOfor2SFOV3Wiring](/image/260409%20ESP32S3SFOfor2SFOV3Wiring.jpg)
 
  The Seeed Studio ESP32S3 operates at Max 240MHz, resulting in fast processing speed. (Arduino Pro Mini 16MHz, RP2040 133MHz)
  
  With Seeed Studio ESP32S3, the existing PPMReader cannot read ppm signals, so a new library called SimplePPM was created and used.
  Since sketches for the ESP32S3 must be written using GPIO numbers rather than pin numbers, the input and output pin numbers for the ppm signal (m) were changed.
  Seeed Studio ESP32S3 can operate on a 6V power supply.
- 
- Plese use -- 260406SFO2SV3ESP32S3/sketch_260406SFOfor2ServoV3forESP32S3
- 
- Wiring  RX ppmSignal to D2( GPIO  3)
- 
-  Rt Servo to D4 (GPIO  5)
-  
- Lt Servo to D5 (GPIO  6)
- 
- 6V to 5V pin
- 
- Ground to GND
- 
- 6V from DC converter to RX 
+  Plese use -- 260406SFO2SV3ESP32S3/sketch_260406SFOfor2ServoV3forESP32S3
+  Wiring  RX ppmSignal to D2( GPIO  3)
+   Rt Servo to D4 (GPIO  5)
+   Lt Servo to D5 (GPIO  6)
+  6V to 5V pin
+  Ground to GND
+  6V from DC converter to RX 
